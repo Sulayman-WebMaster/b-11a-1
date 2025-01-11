@@ -39,7 +39,7 @@ p{
     border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
-    font-weight: semi-bold;
+    font-weight: 600;
 
 } 
 .side-image img{
@@ -67,7 +67,7 @@ p{
     border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
-    font-weight: semi-bold;
+    font-weight: 600;
 }
 .color-green{
     background-color: #006A50;
@@ -192,7 +192,7 @@ p{
 }
 .btn-font-overide{
     font-size: 16px;
-    font-weight: semi-bold;
+    font-weight: 600;
 }
 .btn-color-blue{
     background-color:#5490F5;
@@ -224,5 +224,187 @@ p{
 /* quate section styles */
 .quate-section{
     margin: 32px 0 80px 0;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding:48px 24px;
+    border-radius: 16px;
+
+   
+}
+.text-holder{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.speech{
+    margin-bottom: 12px;
+}
+.author{
+    font-weight:600;
+    color:rgba(14, 14, 14,.8);
+    line-height: 24px;
+    font-size: 20px;
     
+}
+/* opinion section styles */
+.opinion-section{
+    margin-bottom:80px ;
+}
+.opinion-title{
+    font-weight: bold;
+    color:#0E0E0E;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+/* table design */
+.opinion-table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 24px;
+    margin:32px
+    
+  }
+ 
+  .opinion-table th, .opinion-table td {
+    border: 1px solid rgba(14, 14, 14,.15);
+    padding: 8px;
+    padding: 24px;
+    font-size:20px;
+    font-weight: 600;
+  }
+  .opinion-table td:nth-child(2) {
+    text-align: center;
+}
+
+  .opinion-table th {
+    background-color: #C6E4D6;
+    text-align: left;
+    border: none;
+  }
+
+  .opinion-table select {
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14,.15);
+    padding:10px 14px;
+    font-size:16px ;
+    font-weight: 500 ;
+    border-radius: 4px;
+  }
+  /* news section styles */
+  .news-title{
+    font-weight: bold;
+    color:#0E0E0E;
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .news{
+    display:flex;
+    gap:24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin:32px 0 80px 0;
+  }
+  .news-card{
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .the-news{
+    display: flex;
+    gap:32px;
+    justify-content: space-around;
+    padding:48px;
+  }
+  .news img{
+   width:408px;
+   height: 306px;
+   border-radius: 24px;
+  }
+  .contents img{
+    width:134px;
+    height: 40px;
+    margin-bottom: 12px;
+  }
+  .btn-news{
+    padding: 13px 26px;
+    color: #ffffff;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+  }
+  .btn-news:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#006A50;
+    border: 1px solid #006A50;
+  }
+.news-title{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 12px ;
+}
+.time-block{
+    display: flex;
+    gap:12px;
+    margin-bottom: 12px;
+
+}
+.news-disc{
+    margin-bottom: 32px;
+}
+/* Donate section styles */
+.donate-disc{
+    margin-bottom: 32px;
+}
+.donate-amounts{
+    display: flex;
+    gap:24px;
+    padding: 0 104.5px;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+    margin-bottom: 32px;
+}
+.donate-amount{
+    width:240px;
+    height: 128px;
+    border-radius: 16px;
+    border: 1px solid rgba(14,14,14,0.15);  
+}
+.donate-amount:hover {
+    background-color: #C6E4D6;
+}
+.donate-amount:focus {
+    background-color: #C6E4D6;
+}
+.donate-amount:focus:hover {
+    background-color: #C6E4D6; /* Ensure active color remains on hover */
+}
+.taka{
+    padding:40px;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgba(14,14,14,.8)
+}
+.other-amount{
+    padding:20px 40px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14,14,14,.3)
+    border-bottom: 4px solid rgba(14,14,14,0.3); 
+}
+.donate-btn{
+    color: #ffffff;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding:17px 34px;
+    margin-top: 32px;
+    text-align: center;
+}
+.btn-holder{
+    text-align: center;
 }
