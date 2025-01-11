@@ -359,6 +359,7 @@ p{
 /* Donate section styles */
 .donate-disc{
     margin-bottom: 32px;
+    text-align: center;
 }
 .donate-amounts{
     display: flex;
@@ -454,9 +455,11 @@ p{
     margin:24px 0 24px 0;
 }
 .input-area [type="text"]{
-    border-radius: 18px;
     padding: 18px 40px;
     width: 600px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border:none;
 }
 .input-area [type="text"]::placeholder{
     font-size: 16px;
@@ -468,6 +471,7 @@ p{
     padding: 17px 34px;
 
 }
+/* Footer section styles */
 .footer{
     padding:50px 160px;
     display: flex;
@@ -485,8 +489,8 @@ p{
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-   
-
+    color:#0E0E0E;
+    opacity: 100%;
 }
 .socail-icons{
     display: flex;
