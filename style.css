@@ -43,7 +43,7 @@ p{
 
 } 
 .side-image img{
-    width:475px;
+    width:474.03px;
     height: 400px;
 }
 
@@ -80,7 +80,7 @@ p{
 }
 .banner{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color:#C6E4D6;
     align-items: center;
     padding: 80px 100px;
@@ -88,6 +88,7 @@ p{
     border-radius: 24px;
     gap:64px;
 }
+
 .mini{
     color:#0E0E0E;
     opacity: 50%;
@@ -96,6 +97,7 @@ p{
     margin-bottom: 16px;
 }
 .title{
+    width: 600px;
     font-size: 56px;
     font-weight: bold;
     color:#0E0E0E;
@@ -435,6 +437,7 @@ p{
 .newsletter{
     display: flex;
     flex-direction: column;
+    border-radius: 24px;
     align-items: center;
     justify-content: center;
     margin: 80px 0 80px 0;
@@ -453,6 +456,7 @@ p{
 }
 .input-area{
     margin:24px 0 24px 0;
+    display: flex;
 }
 .input-area [type="text"]{
     padding: 18px 40px;
@@ -460,6 +464,7 @@ p{
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border:none;
+    flex:1;
 }
 .input-area [type="text"]::placeholder{
     font-size: 16px;
@@ -469,6 +474,15 @@ p{
 .btn-newsletter{
     background-color:#006A50;
     padding: 17px 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 11px 20px;
+    color: #ffffff;
+    border: none; 
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+
 
 }
 /* Footer section styles */
