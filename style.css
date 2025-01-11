@@ -231,13 +231,11 @@ p{
     border-radius: 16px;
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: left 25px top 30px;
+    background-position: left 25px top 25px;
 
    
 }
-.text-holder{
 
-}
 .speech{
     margin-bottom: 12px;
 }
