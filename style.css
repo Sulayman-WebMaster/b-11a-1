@@ -1,0 +1,228 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* universal css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+p{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-weight: 400;
+    line-height: 24px;
+}
+.container{
+    width:1280px ; 
+    margin:0 auto;
+    background-color: #FFFFFF;
+}
+
+/* bannner section */
+.subtitle{
+    font-size: 32px;
+    font-weight: bold;
+    color:#0E0E0E;
+}
+.btn-header{
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #006A50;
+    border: 1px solid #006A50; 
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: semi-bold;
+
+} 
+.side-image img{
+    width:475px;
+    height: 400px;
+}
+
+.btn-header:hover{
+    background-color: #006A50;
+    color: #ffffff;
+    border: 1px solid #000000;
+    transition: 0.5s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 24px 0 24px 0;
+}
+.btn-primary{
+    padding: 11px 20px;
+    color: #ffffff;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: semi-bold;
+}
+.color-green{
+    background-color: #006A50;
+}
+.color-green:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#006A50;
+    border: 1px solid #006A50;
+}
+.banner{
+    display: flex;
+    justify-content:space-around;
+    background-color:#C6E4D6;
+    align-items: center;
+    padding: 80px 100px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    gap:64px;
+}
+.mini{
+    color:#0E0E0E;
+    opacity: 50%;
+    font-weight:400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.title{
+    font-size: 56px;
+    font-weight: bold;
+    color:#0E0E0E;
+    margin-bottom: 16px;
+}
+.section-title{
+    font-weight: bold;
+    color:#0E0E0E;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+/* Pillars section styles */
+.margin-overide{
+    margin-bottom: 32px;
+}
+.pillars{
+     display:flex;
+     gap:24px;
+     justify-content: space-between;
+     align-items: center;
+}
+.pillar{
+    border-radius: 16px;
+    padding:24px;
+    border: 1px solid rgba(14, 14, 14, 0.15)
+}
+.pillar img{
+    width:64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+.pillar-title{
+    font-weight: bold;
+    color:#0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+.pillar-description{
+    font-weight: 400;
+    color:#0E0E0E;
+    opacity: 70%;
+    margin-bottom: 16px;
+}
+.pillar-section{
+    margin-bottom: 80px;
+}
+/* vision section styles */
+.vision-section{
+    margin:32px 0;
+}
+.cards{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+
+}
+.card img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+.card-1{
+    background-color: rgba(84, 144, 245,.2);
+    border: 1px solid #5490F5;
+
+}
+.card-2{
+    background-color: #C6E4D6;
+    border: 1px solid #09A15C;
+}
+.card-3{
+    background-color: #F7EBCF;
+    border: 1px solid #FFC239;
+}
+.card{
+    border-radius: 16px;
+    padding: 32px;  
+}
+
+.card-title{
+    font-weight: bold;
+    color:#0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+.card-description{
+    font-weight: 400;
+    color:#0E0E0E;
+    opacity: 70%;
+    margin-bottom: 16px;
+}
+.btn-font-overide{
+    font-size: 16px;
+    font-weight: semi-bold;
+}
+.btn-color-blue{
+    background-color:#5490F5;
+}
+.btn-color-blue:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#5490F5;
+    border: 1px solid #5490F5;
+}
+.btn-color-green{
+    background-color:#09A15C;
+}
+.btn-color-green:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#09A15C;
+    border: 1px solid #09A15C;
+}
+.btn-color-golden{
+    background-color:#FFC239;
+}
+.btn-color-golden:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#FFC239;
+    border: 1px solid #FFC239;
+}
+/* quate section styles */
+.quate-section{
+    margin: 32px 0 80px 0;
+    
+}
