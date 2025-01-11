@@ -229,12 +229,14 @@ p{
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding:48px 24px;
     border-radius: 16px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 25px top 30px;
 
    
 }
 .text-holder{
-    background-image: url(assets/quote-bg.png);
-    background-repeat: no-repeat;
+
 }
 .speech{
     margin-bottom: 12px;
@@ -430,6 +432,12 @@ p{
     margin-top: 32px;
     text-align: center;
 }
+.donate-btn:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#006A50;
+    border: 1px solid #006A50;
+}
 .btn-holder{
     text-align: center;
 }
@@ -484,6 +492,12 @@ p{
     font-weight: 600;
 
 
+}
+.btn-newsletter:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+    color:#006A50;
+    border: 1px solid #006A50;
 }
 /* Footer section styles */
 .footer{
